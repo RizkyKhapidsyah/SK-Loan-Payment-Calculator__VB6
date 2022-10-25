@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Loan
+
+
+[Package|Loan|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Visual Basic Projects\Loan\Package
+
+[Package|Loan|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Loan|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Loan|Files Found]
+
+[Package|Loan|Files Released]
+
+[Package|Loan|Missing Dependency Information]
+
+[Package|Loan|Out-of-Date Dependency Information]
+
+[Package|Loan|Files Added]
+
+[Package|Loan|Files Removed]
+
+[Package|Loan|Files In Project]
+C:\Visual Basic Projects\Loan\loan.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\Olepro32.dll=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\Stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Loan|Configure Registry Files]
+Applicable=No
+
+[Package|Loan|Configure Remote Servers]
+Applicable=No
+
+[Package|Loan|Install Locations]
+C:\Visual Basic Projects\Loan\loan.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Loan|Configure Shared Files]
+Applicable=Yes
+C:\Visual Basic Projects\Loan\loan.exe=No
+
+[Package|Loan|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Loan Calculator
+
+[Package|Loan|IconGroups]
+Group0=Loan Calculator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Loan|Loan Calculator]
+Icon1=loan.exe
+Title1=Loan Calculator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Loan|Package]
+PackageFolder=C:\Visual Basic Projects\Loan\Package
+ProjectFolder=C:\Visual Basic Projects\Loan
+ServerSideCab=
+File1=C:\Visual Basic Projects\Loan\Package\setup.exe
+File2=C:\Visual Basic Projects\Loan\Package\Setup.Lst
+File3=C:\Visual Basic Projects\Loan\Package\loan1.CAB
+File4=C:\Visual Basic Projects\Loan\Package\loan2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
